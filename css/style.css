@@ -1,10 +1,10 @@
-/* Reset */
+/* RESET */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/*Clearfix*/
+/*CLEARFIX*/
 
 .clearfix::after {
     content: "";
@@ -72,6 +72,7 @@ header nav{
     margin-bottom: 20px;
 }
 .jumbotron p{
+    line-height: 1.5;
     font-size: 0.9rem;
     margin-bottom: 20px;
 }
@@ -94,7 +95,7 @@ header nav{
     background-color: white;
 }
 .background-black{
-    background-color: darkgray;
+    background-color: black;
     color: white;
 }
 /* MAIN */
