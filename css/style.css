@@ -53,3 +53,44 @@ header nav{
     padding: 8px;
     border: none;
 }
+
+/* JUMBOTRON */
+.jumbotron{
+    height: 60vh;
+    text-align: center;
+}
+.jumbotron img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jumbotron h1{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+.jumbotron p{
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+.jumbotron-text{
+    color: white;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* JUMBO BUTTON */
+.background-white{
+    background-color: white;
+}
+.background-darkgrey{
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
