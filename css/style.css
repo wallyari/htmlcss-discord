@@ -17,6 +17,9 @@ body{
 .float-left{
     float: left;
 }
+.float-right{
+    float: right;
+}
 
 /* HEADER */
 header{
@@ -90,7 +93,28 @@ header nav{
 .background-white{
     background-color: white;
 }
-.background-darkgrey{
-    background-color: rgb(20, 20, 20);
+.background-black{
+    background-color: darkgray;
     color: white;
+}
+/* MAIN */
+.main-container{
+    height: 80vh;
+}
+.main-container img{
+    width: 60%;
+}
+.main-text{
+    width: 30%;
+    padding: 35px;
+}
+.main-text h1{
+    margin-bottom: 20px;
+}
+.main-text p{
+    font-size: 0.9rem;
+}
+/* SECOND SECTION */
+.bg-grey{
+    background-color: rgba(246,246,246,255);  
 }
